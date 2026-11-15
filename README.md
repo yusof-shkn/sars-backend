@@ -23,6 +23,13 @@ is needed to run the app.
 
 Optional, for the NASA photo basemaps without NASA's servers: `uv run python -m app.modules.events.pipeline tiles` (see step 4 below).
 
+## Deploy
+The `Dockerfile` builds the API with the processed events baked in. The server listens on
+`$HOST:$PORT` (default `0.0.0.0:8000`) and answers `/health`. Mount a volume at `/app/data/tiles`
+to keep the NASA photo tiles across deploys, and fill it once with
+`docker exec <container> python -m app.modules.events.pipeline tiles`.
+Production runs from the `prod` branch at https://shkn.site/sars.
+
 ## Process a real event
 1. Earthdata Login: create a token at https://urs.earthdata.nasa.gov (Generate Token) and put
    `EARTHDATA_TOKEN=...` in `.env`, or just run step 3 and type your username and
