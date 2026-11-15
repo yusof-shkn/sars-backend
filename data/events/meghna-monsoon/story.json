@@ -1,0 +1,133 @@
+{
+  "summary": "Every summer the monsoon swells the rivers of Bangladesh. Here, where the Meghna and the Padma meet near Chandpur, the water spread over fields and river islands between 2 July and 19 August 2026. The radar shows exactly where.",
+  "points": [
+    {
+      "id": "water",
+      "title": "The flood, drawn by the radar",
+      "headline": "22 km² of land went under water",
+      "lat": 23.275,
+      "lon": 90.725,
+      "zoom": 10,
+      "show": {
+        "view": "change",
+        "subtle": false,
+        "basemap": "gray",
+        "radar_opacity": 0.9,
+        "split": 0
+      },
+      "what_happened": "Blue is ground that turned dark to the radar between the two dates. Calm water acts like a mirror and sends the radar signal away, so new water shows up as a sharp drop. About 22 km² that was land on 2 July was open water on 19 August: roughly 3,100 football pitches.",
+      "sources": [],
+      "photos": []
+    },
+    {
+      "id": "why",
+      "title": "Why not just use satellite photos?",
+      "headline": "In the monsoon, a camera sees cloud",
+      "lat": 23.275,
+      "lon": 90.725,
+      "zoom": 10,
+      "show": {
+        "view": "change",
+        "subtle": false,
+        "basemap": "hls",
+        "radar_opacity": 0,
+        "split": 0.5
+      },
+      "what_happened": "These are ordinary satellite photos of the same two dates. Drag the round handle across. In the monsoon the sky over Bangladesh is covered for weeks, exactly when the flood happens, so a camera often photographs the top of the clouds. That is why this map uses radar and not only photos: a camera needs daylight and a clear sky, while radar sends its own signal, which passes through cloud, smoke and darkness and comes back the same in any weather.",
+      "sources": [],
+      "photos": []
+    },
+    {
+      "id": "fields",
+      "title": "A stretch of fields, now water",
+      "headline": "2.9 km² under water in one place",
+      "lat": 23.421,
+      "lon": 90.807,
+      "zoom": 12,
+      "show": {
+        "view": "change",
+        "subtle": false,
+        "basemap": "gray",
+        "radar_opacity": 0.9,
+        "split": 0
+      },
+      "what_happened": "Inside this outline almost everything that changed turned dark: farmland beside the river that was dry at the start of July and flooded by mid-August.",
+      "sources": [],
+      "area": 2,
+      "photos": []
+    },
+    {
+      "id": "crops",
+      "title": "Not every change is the flood",
+      "headline": "Orange here is crops growing, not damage",
+      "lat": 23.234,
+      "lon": 90.602,
+      "zoom": 12,
+      "show": {
+        "view": "change",
+        "subtle": false,
+        "basemap": "gray",
+        "radar_opacity": 0.9,
+        "split": 0
+      },
+      "what_happened": "This is the biggest patch of change on the map, and most of it is not flood. Orange means the ground got rougher or leafier: monsoon crops such as rice and jute grew between the two dates. Reading the colours keeps a growing field from being counted as a disaster.",
+      "sources": [],
+      "area": 1,
+      "photos": []
+    },
+    {
+      "id": "total",
+      "title": "The whole picture, before and after",
+      "headline": "Water: 352 km² before, 366 km² after",
+      "lat": 23.275,
+      "lon": 90.725,
+      "zoom": 10,
+      "show": {
+        "view": "ground",
+        "subtle": false,
+        "basemap": "gray",
+        "radar_opacity": 0.9,
+        "split": 0.5
+      },
+      "what_happened": "Now both dates are coloured by what the land was. Left of the handle is 2 July, right is 19 August. Drag it and watch the blue spread along the river banks and over the islands.",
+      "sources": [
+        {
+          "label": "Wikipedia: Meghna River",
+          "url": "https://en.wikipedia.org/wiki/Meghna_River"
+        }
+      ],
+      "photos": []
+    },
+    {
+      "id": "earth",
+      "title": "How it changes the Earth",
+      "headline": "Every monsoon, the rivers redraw the map",
+      "lat": 23.275,
+      "lon": 90.725,
+      "zoom": 10,
+      "show": {
+        "view": "ground",
+        "subtle": false,
+        "basemap": "gray",
+        "radar_opacity": 0.9,
+        "split": 0.5
+      },
+      "what_happened": "The Meghna and the Padma carry so much silt that the land itself moves: river islands, called chars, grow in one season and wash away in the next, and the banks shift by hundreds of metres. People farm and live on that moving ground. Two radar images weeks apart show where the water went this year; a series of them shows the map being redrawn.",
+      "photos": [
+        {
+          "file": "photos/sariakandi-char-land-flood-affected-bangladesh.jpg",
+          "caption": "A flooded river island (char) in Bangladesh. This photo is from another river and another year (Jamuna, 2016), shown for what such flooding looks like.",
+          "credit": "TausifAlHossain",
+          "licence": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Sariakandi_Char_Land_Flood_Affected_Bangladesh.jpg"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia: Meghna River",
+          "url": "https://en.wikipedia.org/wiki/Meghna_River"
+        }
+      ]
+    }
+  ]
+}

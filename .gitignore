@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.ruff_cache/
+.pytest_cache/
+.pyright/
+exports/
+*.db
+.coverage
+dist/
+build/
+*.egg-info/
+data/granules/
+# Regenerable caches: radar crops (`pipeline run`, needs Earthdata) and NASA photo tiles (`pipeline tiles`)
+data/subsets/
+data/tiles/

@@ -1,0 +1,187 @@
+{
+  "summary": "On 26 August 2026 a wall of mud and boulders came down the Lende Khola on the Nepal-China border and ran about 100 km down the Bhote Koshi and Trishuli rivers. At first nobody could see where it came from: the mountains were in cloud. This is the story of how the cause was found, on the north side of a 7,227 m peak called Langtang Lirung.",
+  "points": [
+    {
+      "id": "flood",
+      "title": "26 August 2026",
+      "headline": "A wall of mud hits the border",
+      "lat": 28.275,
+      "lon": 85.525,
+      "zoom": 10,
+      "show": {
+        "view": "ground",
+        "subtle": false,
+        "basemap": "gray",
+        "radar_opacity": 0.9,
+        "split": 0.5
+      },
+      "what_happened": "A security camera at the Gyirong-Rasuwagadhi crossing between China and Nepal records the moment the mud arrives. The flow buried the port, the highway between the two countries and villages downstream. Reported deaths range from about 400 in early counts to more than 1,000, with thousands missing.",
+      "photos": [
+        {
+          "file": "photos/mudslide-at-gyirong-port-1.jpg",
+          "caption": "CCTV at Gyirong Port, on the Chinese side of the border, as the mudslide arrives, 26 August 2026.",
+          "credit": "CCTV footage via Wikimedia Commons",
+          "licence": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Mudslide_at_Gyirong_Port_1.webm"
+        }
+      ],
+      "sources": [
+        {
+          "label": "USGS: 2026 Nepal debris avalanche and flash flood",
+          "url": "https://www.usgs.gov/programs/landslide-hazards/science/2026-nepal-debris-avalanche-and-flash-flood"
+        },
+        {
+          "label": "Eos Landslide Blog: 26 August 2026",
+          "url": "https://eos.org/thelandslideblog/26-august-2026-nepal-and-tibet"
+        }
+      ]
+    },
+    {
+      "id": "mystery",
+      "title": "The mystery",
+      "headline": "At first, nobody knew why",
+      "lat": 28.275,
+      "lon": 85.525,
+      "zoom": 10,
+      "show": {
+        "view": "change",
+        "subtle": false,
+        "basemap": "hls",
+        "radar_opacity": 0,
+        "split": 0.5
+      },
+      "what_happened": "Early reports called it a glacial lake outburst: a lake high in the mountains bursting its banks. But the peaks were wrapped in monsoon cloud, and photos from space showed only pieces of the valley. This Landsat image from the day of the flood shows the brown scar of the flow between the clouds. The map is now showing ordinary satellite photos of the two radar dates: drag the handle to see how much cloud a camera has to deal with here.",
+      "photos": [
+        {
+          "file": "photos/landsat-nepal-flood-2026-08-26.png",
+          "caption": "Landsat 9, 26 August 2026: the debris flow's brown track, with cloud over much of the valley.",
+          "credit": "Landsat 9 / USGS",
+          "licence": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Landsat_Nepal_flood_2026-08-26.png"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Unda: glacier collapse, not a glacial lake outburst",
+          "url": "https://www.unda.co.uk/news/glacial-lake-outburst-flood-nepal-2026/"
+        }
+      ]
+    },
+    {
+      "id": "collapse",
+      "title": "The answer",
+      "headline": "The radar found where the mountain broke",
+      "lat": 28.302,
+      "lon": 85.506,
+      "zoom": 12,
+      "show": {
+        "view": "change",
+        "subtle": false,
+        "basemap": "gray",
+        "radar_opacity": 0.9,
+        "split": 0
+      },
+      "what_happened": "Radar does not need a clear sky. Comparing an image from 19 August with one from 31 August, this outline holds the strongest change on the whole mountain: 2.3 km² on the north side of Langtang Lirung. Blue is surface that turned smoother or wetter; magenta is surface that became blocky, like broken ice and rock. That is the mark of a slope that failed. Scientists concluded the flood began as a collapse of ice and rock that dammed the river below, not as a lake outburst. That is why this map uses radar and not only photos: a camera needs daylight and a clear sky, while radar sends its own signal, which passes through cloud, smoke and darkness.",
+      "photos": [],
+      "sources": [
+        {
+          "label": "ICIMOD: Kyirong-Rasuwa flood 2026",
+          "url": "https://www.icimod.org/kyirong-rasuwa-flood-2026-nepal-china-border/"
+        },
+        {
+          "label": "Unda: glacier collapse, not a glacial lake outburst",
+          "url": "https://www.unda.co.uk/news/glacial-lake-outburst-flood-nepal-2026/"
+        }
+      ],
+      "area": 1
+    },
+    {
+      "id": "summit",
+      "title": "Higher up",
+      "headline": "A second scar, nearer the summit",
+      "lat": 28.257,
+      "lon": 85.484,
+      "zoom": 12,
+      "show": {
+        "view": "change",
+        "subtle": false,
+        "basemap": "gray",
+        "radar_opacity": 0.9,
+        "split": 0
+      },
+      "what_happened": "A smaller patch of change closer to the peak: fresh avalanche tracks and newly exposed rock and ice. One later analysis reports that radar had recorded this slope creeping for weeks before it failed, a warning nobody was watching for.",
+      "photos": [],
+      "sources": [
+        {
+          "label": "Wikipedia: 2026 Nepal-Tibet floods",
+          "url": "https://en.wikipedia.org/wiki/2026_Nepal%E2%80%93Tibet_floods"
+        }
+      ],
+      "area": 2
+    },
+    {
+      "id": "limits",
+      "title": "Being honest about it",
+      "headline": "What the radar can and cannot say",
+      "lat": 28.275,
+      "lon": 85.525,
+      "zoom": 10,
+      "show": {
+        "view": "change",
+        "subtle": false,
+        "basemap": "gray",
+        "radar_opacity": 0.9,
+        "split": 0
+      },
+      "what_happened": "The radar shows where the surface changed and how much: 2.6% of this 183 km² window. It cannot say why by itself: fresh snow or melting also change the signal, and steep faces are partly hidden from the satellite. The cause came from scientists combining radar, the few clear photos, earthquake sensors that felt the collapse, and people on the ground. The radar's part was to point at the right mountain when cameras could not.",
+      "photos": [],
+      "sources": [
+        {
+          "label": "USGS: 2026 Nepal debris avalanche and flash flood",
+          "url": "https://www.usgs.gov/programs/landslide-hazards/science/2026-nepal-debris-avalanche-and-flash-flood"
+        }
+      ]
+    },
+    {
+      "id": "earth",
+      "title": "How it changed the Earth",
+      "headline": "2.2 million tonnes of rock and mud, moved in an hour",
+      "lat": 28.275,
+      "lon": 85.525,
+      "zoom": 10,
+      "show": {
+        "view": "ground",
+        "subtle": false,
+        "basemap": "gray",
+        "radar_opacity": 0.9,
+        "split": 0.5
+      },
+      "what_happened": "The collapse left a new scar on the mountain and filled the valley below with debris: UNDP estimated at least 2.2 million tonnes. The river bed was rebuilt along 100 km, the border crossing was destroyed, and 11 hydropower stations and a solar plant, 431 MW in all, stopped working. The glacier above had already retreated more than 300 m between 2010 and 2026; as ice pulls back from steep rock walls, collapses like this become more likely across the high mountains of Asia.",
+      "photos": [
+        {
+          "file": "photos/sino-nepal-friendship-bridge.jpg",
+          "caption": "The Lende Khola at the Rasuwagadhi border crossing in 2013, with the bridge between Nepal and China under construction. The flood passed through here.",
+          "credit": "Urusa Sharma",
+          "licence": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Sino-Nepal_Friendship_Bridge.JPG"
+        }
+      ],
+      "sources": [
+        {
+          "label": "UNDP: 2.2 million tonnes of debris",
+          "url": "https://www.undp.org/nepal/press-releases/nepal-floods-hit-vulnerable-communities-undp-estimates-22-million-tonnes-debris"
+        },
+        {
+          "label": "Science News: Nepal's deadly debris flow",
+          "url": "https://www.sciencenews.org/article/nepal-debris-flow-risk-mountain-climate"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Video: the 2026 Nepal flood",
+          "url": "https://youtu.be/vfIaNeGVaVo"
+        }
+      ]
+    }
+  ]
+}

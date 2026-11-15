@@ -1,0 +1,179 @@
+{
+  "summary": "In July 2026 a wildfire called Thunder Bay 36 burned through Wabakimi Provincial Park in northwestern Ontario. By 22 July it covered more than 318,000 hectares and was still out of control; the communities of Armstrong, Whitesand and Namaygoosisagagun were evacuated. This map shows a 780 km² window inside the fire, the day before it started and seven weeks later.",
+  "points": [
+    {
+      "id": "fire",
+      "title": "The fire",
+      "headline": "A wall of flame across the lake",
+      "lat": 50.325,
+      "lon": -89.52,
+      "zoom": 10,
+      "show": {
+        "view": "ground",
+        "subtle": false,
+        "basemap": "gray",
+        "radar_opacity": 0.9,
+        "split": 0.5
+      },
+      "what_happened": "14 July 2026: Thunder Bay 36 burns down to the shore of Collins Lake as it destroys homes at Namaygoosisagagun (Collins) First Nation. By 22 July the fire covered more than 318,000 hectares, an area bigger than Luxembourg, and was still out of control.",
+      "photos": [
+        {
+          "file": "photos/thunder-bay-36.jpg",
+          "caption": "Smoke and flame over Collins Lake, 14 July 2026.",
+          "credit": "Wayne Wastaken",
+          "licence": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Thunder_Bay_36.jpg"
+        }
+      ],
+      "sources": [
+        {
+          "label": "The Weather Network: forest fires in northwestern Ontario",
+          "url": "https://www.theweathernetwork.com/en/news/weather/severe/forest-fires-in-northwestern-ontario-what-to-know"
+        }
+      ]
+    },
+    {
+      "id": "landscape",
+      "title": "The burn, as the radar felt it",
+      "headline": "214 km² of forest reflects the radar differently",
+      "lat": 50.325,
+      "lon": -89.52,
+      "zoom": 10.5,
+      "show": {
+        "view": "change",
+        "subtle": true,
+        "basemap": "gray",
+        "radar_opacity": 0.9,
+        "split": 0
+      },
+      "what_happened": "Orange is burnt forest. The fire stripped the needles and small branches, so the radar now reaches the bare trunks and the ground and bounces back stronger. Each spot changes only a little, so this view averages 500 m blocks to make the burn stand out. Radar works through smoke, cloud and darkness, which is why it could map this fire when cameras could not.",
+      "sources": [],
+      "photos": []
+    },
+    {
+      "id": "photos",
+      "title": "Why not just use satellite photos?",
+      "headline": "The camera got clouds. The radar got the burn.",
+      "lat": 50.325,
+      "lon": -89.52,
+      "zoom": 10.5,
+      "show": {
+        "view": "change",
+        "subtle": false,
+        "basemap": "hls",
+        "radar_opacity": 0,
+        "split": 0.5
+      },
+      "what_happened": "These are ordinary satellite photos, not radar. Left of the round handle: 11 July 2026, one day before the fire started. Right of it: 28 August, the same day as the radar image. Drag the handle across. Where cloud or smoke covers the ground the camera shows nothing. That is why this map uses radar and not only photos: a camera needs daylight and a clear sky, while radar sends its own signal, which passes through cloud, smoke and darkness and comes back the same in any weather.",
+      "sources": [
+        {
+          "label": "The Weather Network: forest fires in northwestern Ontario",
+          "url": "https://www.theweathernetwork.com/en/news/weather/severe/forest-fires-in-northwestern-ontario-what-to-know"
+        }
+      ],
+      "photos": []
+    },
+    {
+      "id": "area1",
+      "title": "Where it burned hardest",
+      "headline": "8 km² of standing dead trunks",
+      "area": 1,
+      "lat": 50.244,
+      "lon": -89.606,
+      "zoom": 12,
+      "show": {
+        "view": "change",
+        "subtle": false,
+        "basemap": "gray",
+        "radar_opacity": 0.9,
+        "split": 0
+      },
+      "what_happened": "Inside this outline the change is strong enough to see spot by spot. Magenta means the radar signal bounces off something upright and then the ground: burnt trunks left standing over bare soil. This is the largest such patch in the window.",
+      "sources": [],
+      "photos": []
+    },
+    {
+      "id": "lakes",
+      "title": "A false alarm the map does not fall for",
+      "headline": "The lakes look different. They did not change.",
+      "lat": 50.4486,
+      "lon": -89.4731,
+      "zoom": 12,
+      "show": {
+        "view": "change",
+        "subtle": false,
+        "basemap": "gray",
+        "radar_opacity": 0.9,
+        "split": 0
+      },
+      "what_happened": "The pale blue-green on the lakes is wind. On 28 August a breeze ruffled the water, and rough water sends more radar back than calm water. The map marks it as wind on water and leaves it out of every number, so 30 km² of ripples are not counted as damage.",
+      "sources": [],
+      "photos": []
+    },
+    {
+      "id": "people",
+      "title": "The people in its way",
+      "headline": "Three communities evacuated",
+      "lat": 50.325,
+      "lon": -89.52,
+      "zoom": 10,
+      "show": {
+        "view": "ground",
+        "subtle": false,
+        "basemap": "gray",
+        "radar_opacity": 0.9,
+        "split": 0.5
+      },
+      "what_happened": "Armstrong, Whitesand First Nation and Namaygoosisagagun (Collins) First Nation, east of this window, were evacuated; a fast-moving fire destroyed homes and buildings at Namaygoosisagagun. Several other fires merged into Thunder Bay 36. Reported sizes range from about 318,000 to 351,000 hectares depending on the date; the cause was still under investigation. Rain in late July finally slowed it.",
+      "sources": [
+        {
+          "label": "The Weather Network: forest fires in northwestern Ontario",
+          "url": "https://www.theweathernetwork.com/en/news/weather/severe/forest-fires-in-northwestern-ontario-what-to-know"
+        },
+        {
+          "label": "Evacuations: Armstrong, Whitesand, 14 July 2026",
+          "url": "https://refdesk.ca/blog/northwestern-ontario-wildfire-evacuations-armstrong-whitesand-thunder-bay-july-14-2026-residents-guide"
+        }
+      ],
+      "photos": []
+    },
+    {
+      "id": "earth",
+      "title": "How it changed the Earth",
+      "headline": "Smoke crossed a continent. The forest will take decades.",
+      "lat": 50.325,
+      "lon": -89.52,
+      "zoom": 10,
+      "show": {
+        "view": "change",
+        "subtle": true,
+        "basemap": "gray",
+        "radar_opacity": 0.9,
+        "split": 0
+      },
+      "what_happened": "The smoke turned skies orange more than 1,000 km away in southern Ontario and drifted over the eastern United States. On the ground, over 318,000 hectares of boreal forest burned. The trunks left standing will fall over the coming years and new growth will take decades; radar can keep measuring that recovery through every winter and every cloudy day.",
+      "photos": [
+        {
+          "file": "photos/wildfire-smoke-in-st-catharines-ontario-1.jpg",
+          "caption": "Midday in St. Catharines, southern Ontario, 15 July 2026: smoke from the northern fires.",
+          "credit": "Gogerr",
+          "licence": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Wildfire_smoke_in_St._Catharines,_Ontario_(1).jpg"
+        },
+        {
+          "file": "photos/ontario-wildfire-smoke-moves-east-1256746.jpg",
+          "caption": "Smoke pouring east over Canada and the United States, 14 July 2026.",
+          "credit": "NASA Earth Observatory/Lauren Dauphin",
+          "licence": "Public domain",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ontario_Wildfire_Smoke_Moves_East_(1256746).jpg"
+        }
+      ],
+      "sources": [
+        {
+          "label": "NASA Earth Observatory: Ontario wildfire smoke moves east",
+          "url": "https://commons.wikimedia.org/wiki/File:Ontario_Wildfire_Smoke_Moves_East_(1256746).jpg"
+        }
+      ]
+    }
+  ]
+}
